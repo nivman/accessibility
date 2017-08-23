@@ -1,0 +1,305 @@
+#octAccess .octContainer ul>li a,
+#octAccess .open {
+    color: #FFF;
+    font-family: arial;
+    font-weight: 700
+}
+
+#octAccess a {
+    border: none;
+    text-decoration: none
+}
+
+#octAccess .octIcon {
+    display: inline-block;
+    background: url(data:image/png;base64,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) no-repeat;
+    overflow: hidden;
+    text-indent: -999px;
+    text-align: left;
+    vertical-align: middle
+}
+
+#octAccess .octIcon.octIcon-credit {
+    background-position: -19px -27px;
+    width: 15px;
+    height: 13px
+}
+
+#octAccess .octIcon-chair {
+    background-position: 0 0;
+    width: 22px;
+    height: 29px
+}
+
+#octAccess .octIcon-textp {
+    background-position: 0 -29px;
+    width: 18px;
+    height: 11px
+}
+
+#octAccess .octIcon-textm {
+    background-position: -16px -99px;
+    width: 19px;
+    height: 11px
+}
+
+#octAccess .octIcon-readableFont {
+    background-position: -15px -55px;
+    width: 19px;
+    height: 11px
+}
+
+#octAccess .octIcon-linksHighlight {
+    background-position: -23px -68px;
+    width: 12px;
+    height: 11px
+}
+
+#octAccess .octIcon-contrast {
+    background-position: 2px -40px;
+    width: 17px;
+    height: 15px
+}
+
+#octAccess .octIcon-blackYellow {
+    background-position: 1px -54px;
+    width: 17px;
+    height: 15px
+}
+
+#octAccess .octIcon-color {
+    background-position: 0 -68px;
+    width: 15px;
+    height: 15px
+}
+
+#octAccess .octIcon-close {
+    background-position: 0 -83px;
+    width: 13px;
+    height: 13px
+}
+
+#octAccess .octIcon-keyboard {
+    background-position: 0 -96px;
+    width: 15px;
+    height: 15px
+}
+
+#octAccess .octIcon-motion {
+    background-position: -14px -70px;
+    width: 10px;
+    height: 12px
+}
+
+#octAccess .octIcon-info {
+    background-position: -17px -40px;
+    width: 7px;
+    height: 13px
+}
+
+#octAccess .octIcon-reset {
+    background-position: -13px -83px;
+    width: 13px;
+    height: 13px
+}
+
+#octAccess .octIcon-cursor {
+    background-position: -24px -82px;
+    width: 11px;
+    height: 15px
+}
+
+#octAccess {
+    position: fixed;
+    right: 0;
+    top: 20%;
+    z-index: 9999999;
+    -webkit-transition: transform .35s cubic-bezier(.25, .46, .45, .94);
+    -moz-transition: transform .35s cubic-bezier(.25, .46, .45, .94);
+    -o-transition: transform .35s cubic-bezier(.25, .46, .45, .94);
+    transition: transform .35s cubic-bezier(.25, .46, .45, .94);
+    -ms-transform: translate(100%, 0);
+    -moz-transform: translate(100%, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate(100%, 0);
+    direction: rtl;
+    text-align: right;
+    line-height: 12px
+}
+
+#octAccess.active {
+    -ms-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate(0, 0)
+}
+
+#octAccess .open {
+    padding: 10px 5px 10px 15px;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    display: block;
+    background-color: #002356;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+    -webkit-box-shadow: 3px 2px 5px 0 rgba(0, 0, 0, .14);
+    -moz-box-shadow: 3px 2px 5px 0 rgba(0, 0, 0, .14);
+    box-shadow: 3px 2px 5px 0 rgba(0, 0, 0, .14);
+    -webkit-transition: transform 1s, opacity 1.5s;
+    -moz-transition: transform 1s, opacity 1.5s;
+    -o-transition: transform 1s, opacity 1.5s;
+    transition: transform 1s, opacity 1.5s;
+    opacity: 1;
+    -ms-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    white-space: nowrap
+}
+
+#octAccess.active .open {
+    -ms-transform: translate(100%, 0);
+    -moz-transform: translate(100%, 0);
+    -webkit-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+    opacity: 0
+}
+
+#octAccess .open .octIcon {
+    display: block;
+    margin: 0 auto
+}
+
+#octAccess .octContainer {
+    padding: 40px 1px 40px 0;
+    background-color: #002356;
+    position: relative;
+    min-width: 205px;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+    -moz-box-shadow: 0 5px 5px rgba(0, 1, 1, .2);
+    -webkit-box-shadow: 0 5px 5px rgba(0, 1, 1, .2);
+    box-shadow: 0 5px 5px rgba(0, 1, 1, .2);
+    -webkit-transition: border-radius 2s;
+    -moz-transition: border-radius 2s;
+    -o-transition: border-radius 2s;
+    transition: border-radius 2s
+}
+
+#octAccess .octContainer .octClose {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    padding: 5px
+}
+
+#octAccess .octContainer ul {
+    margin: 0;
+    padding: 5px 0 5px 30px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    background-color: rgba(80, 80, 80, .4)
+}
+
+#octAccess .octContainer ul>li {
+    border-bottom: 1px solid #fff;
+    list-style: none;
+    padding: 0!important
+}
+
+#octAccess .octContainer ul>li:last-child {
+    border: none!important
+}
+
+#octAccess .octContainer ul>li a {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    padding-left: 5px;
+    display: block;
+    position: relative;
+    padding-right: 35px;
+    text-decoration: none
+}
+
+#octAccess-co,
+.oct-modal {
+    display: none
+}
+
+#octAccess .octContainer ul>li a:focus,
+#octAccess .octContainer ul>li a:hover {
+    text-decoration: underline;
+    color: #fff
+}
+
+#octAccess .octContainer ul>li a.active {
+    background: rgba(255, 255, 255, .8);
+    color: #2b2b2b
+}
+
+#octAccess .octContainer ul>li .octIcon {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+#octAccess .octContainer ul>li .active .octIcon,
+.keyboardAccess #octAccess .octContainer ul>li:focus .octIcon {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+    filter: invert(100%)
+}
+
+body.octGrayScale {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%)
+}
+
+body.disableAnimations *,
+body.disableAnimations:after,
+body.disableAnimations:before,
+body.noanimations *,
+body.noanimations:after,
+body.noanimations:before {
+    -webkit-animation: none!important;
+    animation: none!important;
+    -webkit-transition: none!important;
+    -moz-transition: none!important;
+    -o-transition: none!important;
+    transition: none!important
+}
+
+body.keyboardAccess:focus>:not(.preventMarker),
+body.keyboardAccess:not(.preventMarker):focus {
+    background-color: #feffc7!important;
+    color: #000!important;
+    box-shadow: 0 0 15px 5px #00004a
+}
+
+#octAccess .octContainer ul>li.separator {
+    border-bottom: 3px solid #fff
+}
+
+body.octRegularFont,
+body.octRegularFont:not(i):not(.fa) {
+    font-family: Verdana, Arial, Helvetica, sans-serif!important
+}
+
+body.octHiglightLinks a:not(.preventLinkMarker) {
+    text-decoration: underline!important;
+    outline: #bbb solid 1px!important
+}
+
+body.octHig…
